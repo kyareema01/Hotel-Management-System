@@ -15,7 +15,7 @@ app.use(express.static('public')); // Serve frontend files
 
 // Connect to MongoDB
 // Connect to MongoDB
-mongoose.connect('mongodb://kyareema01:2213@kalidb-shard-00-00.pdtku.mongodb.net:27017,kalidb-shard-00-01.pdtku.mongodb.net:27017,kalidb-shard-00-02.pdtku.mongodb.net:27017/?ssl=true&replicaSet=atlas-12dp3j-shard-0&authSource=admin')
+mongoose.connect('mongodb://kyareema01:****@kalidb-shard-00-00.pdtku.mongodb.net:27017,kalidb-shard-00-01.pdtku.mongodb.net:27017,kalidb-shard-00-02.pdtku.mongodb.net:27017/?ssl=true&replicaSet=atlas-12dp3j-shard-0&authSource=admin')
 .then(async () => {
   console.log('Connected to MongoDB: usman_danfodio_hotel');
   await seedDatabaseIfNeeded();
